@@ -1,0 +1,36 @@
+---
+title: "Poll Questions"
+author: "greg"
+date: "2024-09-13"
+output: html_document
+---
+
+##Insert Your Questions Below In The Following Format
+
+#Topic Area
+
+## Question1: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+## Question 2: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+#Topic Area
+
+## Question1: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+## Question 2: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
