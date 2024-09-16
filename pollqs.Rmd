@@ -9,30 +9,12 @@ output: html_document
 
 ##Insert Your Questions Below In The Following Format
 
-#Topic Area
+#Voter Enthusiasm
 
-## Question1: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+## Question1: How do you feel about the upcoming 2024 election — are you very enthusiastic, somewhat enthusiastic, not too enthusiastic, or not at all enthusiastic?
+a.)Very enthusiastic
+b.)Somewhat enthusiastic
+c.)Not too enthusiastic
+d.)Not at all enthusiastic
+e.)Don't know
 
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
-
-#Topic Area
-
-## Question1: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
-
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
