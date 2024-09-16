@@ -7,30 +7,53 @@ output: html_document
 
 ##Insert Your Questions Below In The Following Format
 
-#Topic Area
+#Identity
 
-## Question1: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+## Question 1: How important is it to you for the United States to elect a woman president within your lifetime?
++ Very important
++ Somewhat important
++ Not too important
++ Not at all important
 
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
 
-#Topic Area
+## Question 2: When compared to presidents who are men, would a woman president do better, worse, or the same when it comes to the following policy areas?
 
-## Question1: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
++ Education
++ Healthcare
++ Gun policy
++ Economic Issues
++ Immigration
++ Crime
+++ Much better, somewhat better, about the same, somewhat worse, much worse
 
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+#These next two questions are the adjective bank we discussed.
+
+## Question 3: In your opinion, which of the following describe Kamala Harris?
+Strong 
+Gentle 
+Friendly 
+Serious 
+A leader
+Trustworthy
+Honest
+Reckless
+Mentally fit
+Smart
+Level-headed
+Prepared
+
+## Question 4: In your opinion, which of the following describe Donald Trump?
+Strong 
+Gentle
+Friendly 
+Serious 
+A leader
+Trustworthy
+Honest
+Reckless
+Mentally fit
+Smart
+Level-headed
+Prepared
+
+#Actually no crime questions but don't know how to rename branch oops
