@@ -7,6 +7,55 @@ output: html_document
 
 ##Insert Your Questions Below In The Following Format
 
+
+#Topic Area
+
+## Question1: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+## Question 2: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+#Topic Area
+
+## Question1: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+## Question 2: xyz?
+a.)blah
+b.)blah
+c.)blah
+d.)blah
+
+#Inflation (3)
+
+## Question 1: How would you rate your financial situation today -- as excellent, good, only fair, or poor?
+a.) excellent
+b.) good
+c.) only fair
+d.) poor
+
+## Question 2: Would you say that you (or your household) are better off or worse off financially than you were a year ago?
+
+a.) Better off financially than a year ago
+b.) Worse off financially than a year ago
+c.) I don't know
+d.) My financial situation hasn't really changed in the past year
+
+## Question 3: In the past 12 months have you had trouble affording any of your bills or expenses?
+a.) yes
+b.) no
+c.) I don't know
+=======
 #Identity
 
 ## Question 1: How important is it to you for the United States to elect a woman president within your lifetime?
@@ -57,3 +106,4 @@ Level-headed
 Prepared
 
 #Actually no crime questions but don't know how to rename branch oops
+
