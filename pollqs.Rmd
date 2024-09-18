@@ -115,16 +115,18 @@ a.) Kamala Harris (Democrat)
 b.) Donald Trump (Republican)
 c.) Chase Oliver (Libertarian)
 d.) Jill Stein (Green)
-e.) I do not plan to vote
-f.) Other
+e.) Undecided
+f.) I do not plan to vote
+g.) Other
 
 #Question 6: If the 2024 Maryland Senate election were held today, who would you vote for? 
 
 a). Angela Alsobrooks (Democrat)
 b). Larry Hogan (Republican)
 c). Mike Scott (Libertarian)
-d). I do not plan to vote
-e.) Other
+d). Undecided
+e). I do not plan to vote
+f.) Other
 
 
 #Questions 7-15: 
