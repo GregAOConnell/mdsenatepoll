@@ -224,3 +224,7 @@ f. Going to shopping malls
 g. Going to parks in your area
 h. None of these
 
+#Question 18alt: Have you been the victim of a crime in the past 12 months?
+a. Yes, violent
+b. Yes, non-violent
+c. No
