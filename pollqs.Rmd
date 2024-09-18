@@ -119,7 +119,7 @@ e.) Undecided
 f.) I do not plan to vote
 g.) Other
 
-#Question 6: If the 2024 Maryland Senate election were held today, who would you vote for? 
+#Question 6: If the 2024 US Senate election in Maryland were held today, who would you vote for? 
 
 a). Angela Alsobrooks (Democrat)
 b). Larry Hogan (Republican)
