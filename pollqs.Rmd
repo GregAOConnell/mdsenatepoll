@@ -7,6 +7,18 @@ output: html_document
 #this is quentin
 ##Insert Your Questions Below In The Following Format
 
+<<<<<<< Updated upstream
+=======
+#Labor Section (1)
+How would you rate the availability of Maryland's workforce development and job training programs?
+- Excellent
+- Good
+- Fair
+- Poor
+- Not sure
+
+
+>>>>>>> Stashed changes
 #Topic Area
 
 ## Question1: xyz?
