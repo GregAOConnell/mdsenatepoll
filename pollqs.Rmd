@@ -5,9 +5,23 @@ date: "2024-09-13"
 output: html_document
 ---
 
-#this is quentin
-##Insert Your Questions Below In The Following Format
+#Infrastructure Section (2)
 
+## Question 1: What methods of transportation do you regularly use to commute to work? Select all that apply
+a.) Car
+b.) Bus
+c.) Train
+d.) Bicycle
+e.) Walk
+f.) Work from home
+g.) Unemployed
+
+## Question 2: How well would you say the state government is doing with maintaining infrastructure?
+a.) Very good
+b.) Somewhat good
+c.) Somewhat bad
+d.) Very Bad
+e.) I don’t know
 
 #Labor Section (1)
 How would you rate the availability of Maryland's workforce development and job training programs?
