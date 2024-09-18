@@ -5,7 +5,17 @@ date: "2024-09-13"
 output: html_document
 ---
 
+#this is quentin
+##Insert Your Questions Below In The Following Format
 
+
+#Labor Section (1)
+How would you rate the availability of Maryland's workforce development and job training programs?
+- Excellent
+- Good
+- Fair
+- Poor
+- Not sure
 
 #Voter Enthusiasm
 
@@ -257,5 +267,4 @@ h. None of these
 a. Yes, violent
 b. Yes, non-violent
 c. No
-
 
