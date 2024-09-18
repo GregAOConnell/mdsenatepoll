@@ -7,6 +7,16 @@ output: html_document
 
 
 
+#Voter Enthusiasm
+
+## Question1: How do you feel about the upcoming 2024 election — are you very enthusiastic, somewhat enthusiastic, not too enthusiastic, or not at all enthusiastic?
+a.)Very enthusiastic
+b.)Somewhat enthusiastic
+c.)Not too enthusiastic
+d.)Not at all enthusiastic
+e.)Don't know
+
+
 # Israel Questions (3)
 
 ## Question 1: In the Middle East, are your sympathies more with the Israelis or Palestinians?
@@ -34,7 +44,6 @@ f.) I don’t know
 
 
 # Abortion
-
 
 ## Should the Maryland state government provide funding for reproductive health services, i.e., abortion services?
 a.) Yes, including abortion
