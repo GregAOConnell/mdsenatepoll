@@ -7,22 +7,30 @@ output: html_document
 
 ##Insert Your Questions Below In The Following Format
 
+#Abortion
 
-#Topic Area
 
-## Question1: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+## Should the Maryland state government provide funding for reproductive health services, i.e., abortion services?
+a.) Yes, including abortion
+b.) Yes, excluding abortion
+c.) No
+d.) Not sure
 
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+## Which one of the following statements most closely aligns with your stance on abortion?
+a.) Legal & generally available
+b.) Legal with accessibility restrictions
+c.) Legal within rare cases, i.e., rape and incest
+d.) It's not legal at all, with no exceptions
 
-#Topic Area
+## #Additional question on parental rights in education/Critical race theory?? (DS)
+
+
+Please rate the importance of the following issues regarding school curriculum on a scale from 1 to 10:
+1. Critical Race Theory: An academic framework that analyzes systematic racism in society
+2. LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
+3. Health and Sex Education: Covers sexual health, safety, and relationships
+4. Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
+5. Academic Standards and Assessments: Sets benchmarks and evaluates student performance
 
 ## Question1: xyz?
 a.)blah
