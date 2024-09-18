@@ -21,17 +21,11 @@ b.) Legal with accessibility restrictions
 c.) Legal within rare cases, i.e., rape and incest
 d.) It's not legal at all, with no exceptions
 
-# Rank the following issues regarding school curriculum from 1 (most concerning )to 5(most concerning) for parents:
+## #Additional question on parental rights in education/Critical race theory?? (DS)
 
-## Question1: xyz?
-a.) Critical Race Theory: An academic framework that analyzes systematic racism in society
-b.) LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
-c.) Health and Sex Education: Covers sexual health, safety, and relationships
-d.) Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
-e.) Academic Standards and Assessments: Sets benchmarks and evaluates student performance
-
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+Please rate the importance of the following issues regarding school curriculum on a scale from 1 to 10:
+1. Critical Race Theory: An academic framework that analyzes systematic racism in society
+2. LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
+3. Health and Sex Education: Covers sexual health, safety, and relationships
+4. Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
+5. Academic Standards and Assessments: Sets benchmarks and evaluates student performance
