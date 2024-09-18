@@ -5,36 +5,30 @@ date: "2024-09-13"
 output: html_document
 ---
 
-##Insert Your Questions Below In The Following Format
+#Abortion
 
 
-#Topic Area
+## Should the Maryland state government provide funding for reproductive health services, i.e., abortion services?
+a.) Yes, including abortion
+b.) Yes, excluding abortion
+c.) No
+d.) Not sure
 
-## Question1: iodss
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+## Which one of the following statements most closely aligns with your stance on abortion?
+a.) Legal & generally available
+b.) Legal with accessibility restrictions
+c.) Legal within rare cases, i.e., rape and incest
+d.) It's not legal at all, with no exceptions
 
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+## #Additional question on parental rights in education/Critical race theory?? (DS)
 
-#Topic Area
 
-## Question1: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
-
-## Question 2: xyz?
-a.)blah
-b.)blah
-c.)blah
-d.)blah
+Please rate the importance of the following issues regarding school curriculum on a scale from 1 to 10:
+1. Critical Race Theory: An academic framework that analyzes systematic racism in society
+2. LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
+3. Health and Sex Education: Covers sexual health, safety, and relationships
+4. Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
+5. Academic Standards and Assessments: Sets benchmarks and evaluates student performance
 
 #Inflation (3)
 
@@ -55,7 +49,7 @@ d.) My financial situation hasn't really changed in the past year
 a.) yes
 b.) no
 c.) I don't know
-=======
+
 #Identity
 
 ## Question 1: How important is it to you for the United States to elect a woman president within your lifetime?
@@ -98,7 +92,6 @@ Friendly
 Serious 
 A leader
 Trustworthy
-Honest 
 Reckless
 Mentally fit
 Smart
@@ -106,6 +99,7 @@ Level-headed
 Prepared
 
 #Actually no crime questions but don't know how to rename branch oops
+
 
 #Ballot Test
 
@@ -228,3 +222,4 @@ h. None of these
 a. Yes, violent
 b. Yes, non-violent
 c. No
+
