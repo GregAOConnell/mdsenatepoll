@@ -1,138 +1,194 @@
----
-title: "Poll Questions"
-author: "greg"
-date: "2024-09-13"
-output: html_document
----
+Survey Questions - 
 
-#Infrastructure Section (2)
+If the 2024 Presidential election were held today, who would you vote for?
+Kamala Harris (Democrat)
+Donald Trump (Republican)
+Chase Oliver (Libertarian)
+Jill Stein (Green)
+Undecided
+Other
 
-## Question 1: What methods of transportation do you regularly use to commute to work? Select all that apply
-a.) Car
-b.) Bus
-c.) Train
-d.) Bicycle
-e.) Walk
-f.) Work from home
-g.) Unemployed
+If the 2024 US Senate election for Maryland were held today, who would you vote for? 
+Angela Alsobrooks (Democrat)
+Larry Hogan (Republican)
+Mike Scott (Libertarian)
+Undecided
+Other
+Favorabilities Battery (9)
+Below are some public figures and groups. For each, please indicate whether you have a VERY favorable, SOMEWHAT favorable, somewhat UNFAVORABLE, or VERY unfavorable impression. If you have heard of the person or group but do not know enough to have an opinion, or if you have never heard of them, please indicate that. 
+Kamala Harris
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Donald Trump
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Angela Alsobrooks
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Larry Hogan
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Wes Moore
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Brandon Scott
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Labor Unions
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Your Local Law enforcement
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
+Maryland Correctional Enterprises
+Very favorable
+Somewhat favorable
+Somewhat unfavorable
+Very unfavorable
+No opinion
+Never heard
 
-## Question 2: How well would you say the state government is doing with maintaining infrastructure?
-a.) Very good
-b.) Somewhat good
-c.) Somewhat bad
-d.) Very Bad
-e.) I don’t know
+Most important issue( 1: )
+Most important issue
+Crime
+Immigration
+Abortion
+The economy/Inflation
+Healthcare
+Foreign Policy
+Climate
+Gun policy
+US Supreme court appointments
+Racial and ethnic inequality
+LGBTQ+ Rights
+Voter Enthusiasm (1) —
+How do you feel about the upcoming 2024 election— are you very enthusiastic, somewhat enthusiastic, not too excited, or not enthusiastic? (Monmouth)
+Very enthusiastic
+Somewhat enthusiastic 
+Not too enthusiastic
+Not at all enthusiastic 
+Don’t know
+Abortion (2)
+Need examples of reproductive health
+Should the Maryland state government provide funding for reproductive health services, i.e., abortion services?
+Yes, including abortion
+Yes, excluding abortion
+No
+Not sure
+Which one of the following statements most closely aligns with your stance on abortion?
+Legal & generally available
+Legal with accessibility restrictions
+Legal within rare cases, i.e., rape and incest
+It's not legal at all, with no exceptions
+Inflation/Economic Feelings (3) 
 
-#Labor Section (1)
+How would you rate your financial situation today -- as excellent, good, only fair, or poor?
+Would you say that you are better off or worse off financially than you were a year ago?
+In the past 12 months have you had trouble affording essential utilities and if so how often? (gas, groceries)
+Labor Section (1)
 How would you rate the availability of Maryland's workforce development and job training programs?
-- Excellent
-- Good
-- Fair
-- Poor
-- Not sure
+Excellent
+Good
+Fair
+Poor
+Not sure
 
-#Voter Enthusiasm
+Infrastructure Section (2)
+What methods of transportation do you regularly use to commute to work? Select all that apply
+Car
+Bus
+Train
+Bicycle
+Walk
+Work from home
+Unemployed
 
-## Question1: How do you feel about the upcoming 2024 election — are you very enthusiastic, somewhat enthusiastic, not too enthusiastic, or not at all enthusiastic?
-a.)Very enthusiastic
-b.)Somewhat enthusiastic
-c.)Not too enthusiastic
-d.)Not at all enthusiastic
-e.)Don't know
+How well would you say the state government is doing with maintaining infrastructure?
+Very good
+Somewhat good
+Somewhat bad
+Very Bad
+I don’t know
 
+ 
+Crime (4)
 
-# Israel Questions (3)
+What do you think is the PERCENT CHANCE (or CHANCES OUT OF 100) that someone will attempt to break into (or somehow illegally enter) your home and steal something during the next 12 months? 
+0-100
+What do you think is the PERCENT CHANCE (what are the CHANCES OUT OF 100) that someone will take something directly from you using force--such as a stickup, mugging, or threat,--during the next 12 months?
+0-100
+How often do you worry about the following things: frequently, occasionally, rarely, or never?
+Select each of the following crimes that you worry about
+Identity theft
+Being the victim of identity theft
+Having your car stolen or broken into
+Your home being burglarized when you aren't there
+Getting mugged
+Being attacked while driving your car
+Being a victim of a hate crime
+Getting murdered
+Being sexually assaulted
+18. Have you been the victim of a crime in the past 12 months? (ask after the percent chance question)
+Does fear of crime or violence against you ever prevent you from doing each of the following?
+Driving through certain areas of your town or city
+Taking walks, jogging, or running alone in your area
+Visiting central areas of cities near you
+Going to crowded events like concerts, sporting events, or fairs
+Talking to strangers
+Going to shopping malls
+Going to parks in your area
+None of these
 
-## Question 1: In the Middle East, are your sympathies more with the Israelis or Palestinians?
-a.) Israelis
-b.) Palestinians
-c.) Both
-d.) Neither
-e.) I don’t know
+Identity (4)
+https://www.pewresearch.org/social-trends/2023/09/27/views-of-having-a-woman-president/st_2023-09-27_women-leaders-politics_3-01-png/
+How important is it to you for the United States to elect a woman president within your lifetime?
+Very important
+Somewhat important
+Not too important
+Not at all important
 
-## Question 2: How would you describe your opinion towards humanitarian aid to help Palestinian civilians in Gaza?
-a.) Strongly favor
-b.) Somewhat favor
-c.) Neither favor nor oppose
-d.) Somewhat oppose 
-e.) Strongly oppose
-f.) I don’t know
+When compared to presidents who are men, would a woman president do better, worse, or the same when it comes to the following policy areas?
+Education
+Healthcare
+Gun policy
+Economic Issues
+Immigration
+Crime
+Much better, somewhat better, about the same, somewhat worse, much worse
 
-## Question 3: How would you describe your opinion towards military aid to Israel to help in its war against Hamas?
-a.) Strongly favor
-b.) Somewhat favor
-c.) Neither favor nor oppose
-d.) Somewhat oppose 
-e.) Strongly oppose
-f.) I don’t know
-
-
-# Abortion
-
-## Should the Maryland state government provide funding for reproductive health services, i.e., abortion services?
-a.) Yes, including abortion
-b.) Yes, excluding abortion
-c.) No
-d.) Not sure
-
-## Which one of the following statements most closely aligns with your stance on abortion?
-a.) Legal & generally available
-b.) Legal with accessibility restrictions
-c.) Legal within rare cases, i.e., rape and incest
-d.) It's not legal at all, with no exceptions
-
-## #Additional question on parental rights in education/Critical race theory?? (DS)
-
-
-Please rate the importance of the following issues regarding school curriculum on a scale from 1 to 10:
-1. Critical Race Theory: An academic framework that analyzes systematic racism in society
-2. LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
-3. Health and Sex Education: Covers sexual health, safety, and relationships
-4. Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
-5. Academic Standards and Assessments: Sets benchmarks and evaluates student performance
-
-#Inflation (3)
-
-## Question 1: How would you rate your financial situation today -- as excellent, good, only fair, or poor?
-a.) excellent
-b.) good
-c.) only fair
-d.) poor
-
-## Question 2: Would you say that you (or your household) are better off or worse off financially than you were a year ago?
-
-a.) Better off financially than a year ago
-b.) Worse off financially than a year ago
-c.) I don't know
-d.) My financial situation hasn't really changed in the past year
-
-## Question 3: In the past 12 months have you had trouble affording any of your bills or expenses?
-a.) yes
-b.) no
-c.) I don't know
-
-#Identity
-
-## Question 1: How important is it to you for the United States to elect a woman president within your lifetime?
-+ Very important
-+ Somewhat important
-+ Not too important
-+ Not at all important
-
-
-## Question 2: When compared to presidents who are men, would a woman president do better, worse, or the same when it comes to the following policy areas?
-
-+ Education
-+ Healthcare
-+ Gun policy
-+ Economic Issues
-+ Immigration
-+ Crime
-++ Much better, somewhat better, about the same, somewhat worse, much worse
-
-#These next two questions are the adjective bank we discussed.
-
-## Question 3: In your opinion, which of the following describe Kamala Harris?
+In your opinion, which of the following describe Kamala Harris?
 Strong 
 Gentle 
 Friendly 
@@ -146,139 +202,63 @@ Smart
 Level-headed
 Prepared
 
-## Question 4: In your opinion, which of the following describe Donald Trump?
+In your opinion, which of the following describe Donald Trump?
 Strong 
 Gentle
 Friendly 
 Serious 
 A leader
 Trustworthy
+Honest
 Reckless
 Mentally fit
 Smart
 Level-headed
 Prepared
 
-#Actually no crime questions but don't know how to rename branch oops
 
 
-#Question 5 (but should be at the front): If the 2024 Presidential election were held today, who would you vote for?
+Education (1) *
+Additional question on parental rights in education/Critical race theory?? (DS)
 
-a.) Kamala Harris (Democrat)
-b.) Donald Trump (Republican)
-c.) Chase Oliver (Libertarian)
-d.) Jill Stein (Green)
-e.) Undecided
-f.) I do not plan to vote
-g.) Other
-
-#Question 6: If the 2024 US Senate election in Maryland were held today, who would you vote for? 
-
-a). Angela Alsobrooks (Democrat)
-b). Larry Hogan (Republican)
-c). Mike Scott (Libertarian)
-d). Undecided
-e). I do not plan to vote
-f.) Other
+Please rate the importance of the following issues regarding school curriculum on a scale from 1 to 10:
+Critical Race Theory: An academic framework that analyzes systematic racism in societyå
+LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
+Health and Sex Education: Covers sexual health, safety, and relationships
+Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
+Academic Standards and Assessments: Sets benchmarks and evaluates student performance
 
 
-#Questions 7-15: 
+Israel Questions (3)
+In the Middle East, are your sympathies more with the Israelis or Palestinians?
+Israelis
+Palestinians
+Both
+Neither
+I don’t know
 
-Below are some public figures and groups. For each, please indicate whether you have a VERY favorable, SOMEWHAT favorable, somewhat UNFAVORABLE, or VERY unfavorable impression. If you have heard of the person or group but do not know enough to have an opinion, or if you have never heard of them, please indicate that. 
+How would you describe your opinion towards humanitarian aid to help Palestinian civilians in Gaza?
+Strongly favor
+Somewhat favor
+Neither favor nor oppose
+Somewhat oppose 
+Strongly oppose
+I don’t know
 
-7. Kamala Harris
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
+How would you describe your opinion towards military aid to Israel to help in its war against Hamas?
+Strongly favor
+Somewhat favor
+Neither favor nor oppose
+Somewhat oppose 
+Strongly oppose
+I don’t know
 
-8. Donald Trump
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
 
-9. Angela Alsobrooks
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
+Trans Healthcare (1)
+Next, we have a question about gender-affirming care, which refers to various measures, including psychological support, hormonal treatments, and medical surgeries that help transgender individuals align with their gender identity.
+Do you favor or oppose laws that ban certain types of gender-affirming care for minors?
+oppose in all cases
+favor in all cases
+oppose if the patient is a minor
 
-10. Larry Hogan
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
-
-11. Wes Moore
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
-
-12. Brandon Scott
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
-
-13. Unions
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
-
-14. Local Law enforcement
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
-
-15. Maryland Correctional Enterprises
-a. Very favorable
-b. Somewhat favorable
-c. Somewhat unfavorable
-d. Very unfavorable
-e. No opinion
-f. Never heard
-
-#Crime/Criminal Justice
-
-#Question 16: What do you think is the PERCENT CHANCE (or CHANCES OUT OF 100) that someone will attempt to break into or somehow illegally enter your home and steal something during the next 12 months? 
-0-100 response
-
-#Question 17: What do you think is the PERCENT CHANCE (or CHANCES OUT OF 100) that someone will take something directly from you using force--such as a stickup, mugging, or threat,--during the next 12 months?
-0-100
-
-#Question 18 (tentative, but might use a rohin question instead): Does fear of crime or violence against you ever prevent you from doing each of the following? Select all that apply.
-
-a. Driving through certain areas of your town or city
-b. Taking walks, jogging, or running alone in your area
-c. Visiting central areas of cities near you
-d. Going to crowded events like concerts, sporting events, or fairs
-e. Talking to strangers
-f. Going to shopping malls
-g. Going to parks in your area
-h. None of these
-
-#Question 18alt: Have you been the victim of a crime in the past 12 months?
-a. Yes, violent
-b. Yes, non-violent
-c. No
-
+32 Questions
