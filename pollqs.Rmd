@@ -7,8 +7,6 @@ output: html_document
 
 #Evan 
 
-##Insert Your Questions Below In The Following Format
-
 #Voter Enthusiasm
 
 ## Question1: How do you feel about the upcoming 2024 election — are you very enthusiastic, somewhat enthusiastic, not too enthusiastic, or not at all enthusiastic?
@@ -17,4 +15,222 @@ b.)Somewhat enthusiastic
 c.)Not too enthusiastic
 d.)Not at all enthusiastic
 e.)Don't know
+
+#Abortion
+
+
+## Should the Maryland state government provide funding for reproductive health services, i.e., abortion services?
+a.) Yes, including abortion
+b.) Yes, excluding abortion
+c.) No
+d.) Not sure
+
+## Which one of the following statements most closely aligns with your stance on abortion?
+a.) Legal & generally available
+b.) Legal with accessibility restrictions
+c.) Legal within rare cases, i.e., rape and incest
+d.) It's not legal at all, with no exceptions
+
+## #Additional question on parental rights in education/Critical race theory?? (DS)
+
+
+Please rate the importance of the following issues regarding school curriculum on a scale from 1 to 10:
+1. Critical Race Theory: An academic framework that analyzes systematic racism in society
+2. LGBTQ+ Education: Promotes inclusivity, acceptance, and understanding of the LGBTQ+ community
+3. Health and Sex Education: Covers sexual health, safety, and relationships
+4. Equity and Inclusion Initiatives: Educates on fairness, diversity, and belonging
+5. Academic Standards and Assessments: Sets benchmarks and evaluates student performance
+
+#Inflation (3)
+
+## Question 1: How would you rate your financial situation today -- as excellent, good, only fair, or poor?
+a.) excellent
+b.) good
+c.) only fair
+d.) poor
+
+## Question 2: Would you say that you (or your household) are better off or worse off financially than you were a year ago?
+
+a.) Better off financially than a year ago
+b.) Worse off financially than a year ago
+c.) I don't know
+d.) My financial situation hasn't really changed in the past year
+
+## Question 3: In the past 12 months have you had trouble affording any of your bills or expenses?
+a.) yes
+b.) no
+c.) I don't know
+
+#Identity
+
+## Question 1: How important is it to you for the United States to elect a woman president within your lifetime?
++ Very important
++ Somewhat important
++ Not too important
++ Not at all important
+
+
+## Question 2: When compared to presidents who are men, would a woman president do better, worse, or the same when it comes to the following policy areas?
+
++ Education
++ Healthcare
++ Gun policy
++ Economic Issues
++ Immigration
++ Crime
+++ Much better, somewhat better, about the same, somewhat worse, much worse
+
+#These next two questions are the adjective bank we discussed.
+
+## Question 3: In your opinion, which of the following describe Kamala Harris?
+Strong 
+Gentle 
+Friendly 
+Serious 
+A leader
+Trustworthy
+Honest
+Reckless
+Mentally fit
+Smart
+Level-headed
+Prepared
+
+## Question 4: In your opinion, which of the following describe Donald Trump?
+Strong 
+Gentle
+Friendly 
+Serious 
+A leader
+Trustworthy
+Reckless
+Mentally fit
+Smart
+Level-headed
+Prepared
+
+#Actually no crime questions but don't know how to rename branch oops
+
+
+#Ballot Test
+
+#Question 5 (but should be at the front): If the 2024 Presidential election were held today, who would you vote for?
+
+a.) Kamala Harris (Democrat)
+b.) Donald Trump (Republican)
+c.) Chase Oliver (Libertarian)
+d.) Jill Stein (Green)
+e.) Undecided
+f.) I do not plan to vote
+g.) Other
+
+#Question 6: If the 2024 US Senate election in Maryland were held today, who would you vote for? 
+
+a). Angela Alsobrooks (Democrat)
+b). Larry Hogan (Republican)
+c). Mike Scott (Libertarian)
+d). Undecided
+e). I do not plan to vote
+f.) Other
+
+
+#Questions 7-15: 
+
+Below are some public figures and groups. For each, please indicate whether you have a VERY favorable, SOMEWHAT favorable, somewhat UNFAVORABLE, or VERY unfavorable impression. If you have heard of the person or group but do not know enough to have an opinion, or if you have never heard of them, please indicate that. 
+
+7. Kamala Harris
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+8. Donald Trump
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+9. Angela Alsobrooks
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+10. Larry Hogan
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+11. Wes Moore
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+12. Brandon Scott
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+13. Unions
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+14. Local Law enforcement
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+15. Maryland Correctional Enterprises
+a. Very favorable
+b. Somewhat favorable
+c. Somewhat unfavorable
+d. Very unfavorable
+e. No opinion
+f. Never heard
+
+#Crime/Criminal Justice
+
+#Question 16: What do you think is the PERCENT CHANCE (or CHANCES OUT OF 100) that someone will attempt to break into or somehow illegally enter your home and steal something during the next 12 months? 
+0-100 response
+
+#Question 17: What do you think is the PERCENT CHANCE (or CHANCES OUT OF 100) that someone will take something directly from you using force--such as a stickup, mugging, or threat,--during the next 12 months?
+0-100
+
+#Question 18 (tentative, but might use a rohin question instead): Does fear of crime or violence against you ever prevent you from doing each of the following? Select all that apply.
+
+a. Driving through certain areas of your town or city
+b. Taking walks, jogging, or running alone in your area
+c. Visiting central areas of cities near you
+d. Going to crowded events like concerts, sporting events, or fairs
+e. Talking to strangers
+f. Going to shopping malls
+g. Going to parks in your area
+h. None of these
+
+#Question 18alt: Have you been the victim of a crime in the past 12 months?
+a. Yes, violent
+b. Yes, non-violent
+c. No
 
