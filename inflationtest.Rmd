@@ -1,9 +1,0 @@
----
-title: "inflationtest"
-author: "greg"
-date: "2024-09-13"
-output: html_document
----
-
-##Question 1
-Did this work?
