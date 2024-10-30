@@ -1,0 +1,82 @@
+variable,description,question
+MDregvote,MD Vote registration ,
+likelyvoter,Vote likely ,
+Question25_treat,Question 25 treatment ,
+Question29_30_order,Question 29/30 order ,
+Question1,ballot_president ,"If the 2024 Presidential election were held today, who would you vote for?"
+Question2,ballot_senate ,"If the United States Senate election for Maryland were held today, who would you vote for?"
+Question3,ballot_amendment ,"The 2024 election in Maryland has one ballot measure about adding an amendment to ensure the right to reproductive freedom in the state's constitution. If the election was held today, would you vote yes or no this ballot measure?"
+q4,harrisfav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Kamala Harris"
+q5,trumpfav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Donald Trump"
+q6,alsobrooksfav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Angela Alsobrooks"
+q7,hoganfav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Larry Hogan"
+q8,moorefav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Wes Moore"
+q9,scottfav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Brandon Scott"
+q10,unionfav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Labor Unions"
+q11,lawenforcefav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Your Local Law Enforcement"
+q12,mcefav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Maryland Correctional Enterprises"
+q13,gendercarefav ,"Below are some public figures, groups, and policies. For each, indicate how favorable you are towards them. Gender-affirming care for transgender individuals"
+Question14,top_issue ,Which of these is the most important issue for the president to address? Select one.
+Question15,enthusiasm ,How enthusiastic do you feel about voting in the upcoming 2024 election?
+Question16,abortion_stance ,Which one of the following statements most closely aligns with your stance on abortion?
+Question17,financial_situation ,How would you rate your financial situation today?
+Question18,financials_year_ago ,Would you say that you are better off or worse off financially than you were a year ago?
+Question19,trouble_expenses ,"How often in the past 12 months have you had trouble affording living expenses (gas, groceries, rent, and other necessities)?"
+Question20,Break_in_estimate ,"Using the scale provided, please indicate the percent chance you think it is that someone will attempt to illegally break into or enter your home and steal something during the next 12 months?"
+Question21,Theft_estimate ,"Using the scale provided, please indicate the percent chance you think it is that someone will illegally take property directly from you using force--such as a stickup, mugging, or threat--during the next 12 months?"
+Question22_1,crim_prevent - Driving through certain areas of your town or city,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Driving through certain areas of your town or city
+Question22_2,"crim_prevent - Taking walks, jogging, or running alone in your area","Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Taking walks, jogging, or running alone in your area"
+Question22_3,crim_prevent - Visiting central areas of cities near you,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Visiting central areas of cities near you
+Question22_4,"crim_prevent - Going to crowded events like concerts, sporting events, or fairs","Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Going to crowded events like concerts, sporting events, or fairs"
+Question22_5,crim_prevent - Using public transportation ,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Using public transportation
+Question22_6,crim_prevent - Talking to strangers ,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Talking to strangers
+Question22_7,crim_prevent - Going to shopping malls or centers ,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Going to shopping malls or centers
+Question22_8,crim_prevent - Going to parks in your area ,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Going to parks in your area
+Question22_9,crim_prevent - None of these ,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. None of these
+Question22_99,crim_prevent - Not sure ,Has a fear of crime or violence against you ever prevented you from doing any of the following in the prior 12 months? Select all that apply. Not sure
+Question23,crim_victim ,Have you been the victim of a crime in the past 12 months?
+Question24,Woman President Estimate ,"Using the scale provided, please indicate how likely you think it is that the United States will elect a woman as president within your lifetime?"
+Question25a,sexism_control ,How many of the following statements do you agree with?
+Question25b,sexism_treatment ,How many of the following statements do you agree with?
+Question26_1,Educational Preferences - Jim Crow laws ,Which topics should be included in the public school history curriculum? Select all that apply. Jim Crow laws
+Question26_2,Educational Preferences - Systematic racism ,Which topics should be included in the public school history curriculum? Select all that apply. Systematic racism
+Question26_3,Educational Preferences - Police brutality ,Which topics should be included in the public school history curriculum? Select all that apply. Police brutality
+Question26_4,Educational Preferences - World War II ,Which topics should be included in the public school history curriculum? Select all that apply. World War II
+Question26_5,Educational Preferences - The Civil Rights movement,Which topics should be included in the public school history curriculum? Select all that apply. The Civil Rights movement
+Question26_6,Educational Preferences - The legacy of slavery ,Which topics should be included in the public school history curriculum? Select all that apply. The legacy of slavery
+Question26_7,Educational Preferences - Modern-day racial disparities,"Which topics should be included in the public school history curriculum? Select all that apply. Modern-day racial disparities (e.g., wealth, education, housing) "
+Question26_8,Educational Preferences - Westward expansion ,Which topics should be included in the public school history curriculum? Select all that apply. Westward expansion
+Question26_9,Educational Preferences - The American Revolution ,Which topics should be included in the public school history curriculum? Select all that apply. The American Revolution
+Question26_10,Educational Preferences - The Great Depression ,Which topics should be included in the public school history curriculum? Select all that apply. The Great Depression
+Question26_19,Educational Preferences - None of the above ,Which topics should be included in the public school history curriculum? Select all that apply. None of the above
+Question26_99,Educational Preferences - Not sure ,Which topics should be included in the public school history curriculum? Select all that apply. Not sure
+Question27,incarcerated_pay ,"Currently, incarcerated participants in the Maryland Correctional Enterprises work program are paid a range between $0.17 and $1.16 per hour, depending on skill level. Do you believe they should be paid less, more, or about this range?"
+Question28,ME_sympathies ,"In the Middle East, do you generally sympathize more with the Israelis or Palestinians?"
+Question29,gaza_aid_support ,Do you favor or oppose the U.S. sending humanitarian aid to help Palestinian civilians in Gaza?
+Question30,israel_military_support ,Do you favor or oppose the U.S. sending military aid to Israel to help in its war against Hamas?
+birthyr,Birth Year ,
+gender,Gender ,
+race,Race - US ,
+hispanic,Hispanic - US ,
+educ,Education ,
+marstat,Marital Status ,
+employ,Employment Status ,
+ownhome,Home ownership ,
+faminc_new,Family income ,
+child18,Children under the age of 18 ,
+pid3,3 point party ID ,
+pid7,7 point Party ID ,
+presvote16post,2016 President Vote Post Election ,
+presvote20post,2020 President Vote Post Election ,
+inputzip,Residence zip code ,
+inputstate,State of Residence ,
+votereg,Voter Registration Status ,
+ideo5,Ideology ,
+newsint,Political Interest ,
+religpew,Religion ,
+pew_churatd,Church attendance (Pew version) ,
+pew_bornagain,Born Again (Pew version) ,
+pew_religimp,Importance of religion (Pew version) ,
+pew_prayer,Frequency of Prayer (Pew version) ,
+starttime,Questionnaire Start Time ,
+endtime,Questionnaire End Time ,
