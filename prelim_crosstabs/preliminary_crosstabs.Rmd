@@ -18,11 +18,15 @@ library(tidyr)
 library(tidyverse)
 library(gt)
 library(gtExtras)
+library(webshot)
 ```
 
 
 ```{r, warning=FALSE, message=FALSE, echo=FALSE}
-setwd("C:/Users/jwest/Documents/APAN/GVPT635/polling/data/prelim")
+#YOU'LL NEED TO UPDATE THIS TO WHERE YOU SAVE THE DATA
+data_path<-"C:/Users/turitto/Documents/GitHub/mdsenatepoll/prelim_crosstabs/data/prelim"
+
+setwd(data_path)
 
 responses<-read.csv("responses.csv")%>%
   mutate(generation = case_when(
@@ -137,8 +141,8 @@ for (i in seq_along(questions)) {
     select(-order) %>%
     select(Group, everything())
   
-    print(
-      gt(final) %>%
+    # print(
+      gt_table<-gt(final) %>%
         tab_header(
           title = variables$question[variables$variable == questions[i]],
           subtitle = questions[i]
@@ -151,7 +155,9 @@ for (i in seq_along(questions)) {
             rows = seq(1, nrow(final), 2)
           )
         )
-    )
+    # )
+    
+    gtsave(data=gt_table, filename=paste0(data_path,"/crosstab_",i,".html"))
 
 
   } else if (question_types[i] == "interval") {
@@ -240,8 +246,8 @@ for (i in seq_along(questions)) {
     select(-order) %>%
     select(Group, everything())
   
-    print(
-      gt(final_i) %>%
+    # print(
+      gt_table<-gt(final_i) %>%
         tab_header(
           title = variables$question[variables$variable == questions[i]],
           subtitle = questions[i]
@@ -254,7 +260,10 @@ for (i in seq_along(questions)) {
             rows = seq(1, nrow(final), 2)
           )
         )
-    )
+    # )
+    
+    gtsave(data=gt_table, filename=paste0(data_path,"/crosstab_",i,".html"))
+
 
    }
 
