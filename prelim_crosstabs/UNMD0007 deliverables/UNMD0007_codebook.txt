@@ -1,0 +1,1144 @@
+================================================================================
+Project Code: UNMD0007
+Project Name: Maryland - State of the State
+Prepared for: Candace Turitto, University of Maryland, College Park
+Interviews: 500
+Field Period: October 22, 2024 - October 29, 2024
+Project Manager: Melissa M. Moore, melissa.moore@yougov.com
+================================================================================
+YouGov interviewed 611 Maryland registered voters, with the goal of screening 
+for and surveying likely voters in Maryland. The Maryland registered voters were 
+then matched down to a sample of 529, yielding a target subsample of 500 MD 
+likely voters. The respondents were matched to a sampling frame on gender, age, 
+race, and education. The sampling frame is a politically representative "modeled 
+frame" of Maryland registered voters, based upon the American Community Survey 
+(ACS) public use microdata file, public voter file records, the 2020 Current 
+Population Survey (CPS) Voting and Registration supplements, the 2020 National 
+Election Pool (NEP) exit poll, and the 2020 CES surveys, including demographics 
+and 2020 presidential vote.
+
+The matched cases were weighted to the sampling frame using propensity scores. 
+The matched cases and the frame were combined, and a logistic regression was 
+estimated for inclusion in the frame. The propensity score function included age, 
+gender, race/ethnicity, years of education, home ownership status, and 2020 
+presidential vote choice. The propensity scores were grouped into deciles of the 
+estimated propensity score in the frame, and then post-stratified according to 
+these deciles.
+
+The weights were then post-stratified on home ownership status and 2020 
+presidential vote choice, as well as a four-way stratification of gender, 
+age (4-categories), race (4-categories), and education (4-categories). 
+The weighted dataset of MD registered voters was then subsetted on likely 
+voters, and the weights were trimmed and recentered around 1, to produce the 
+final weights for MD likely voters. 
+================================================================================
+                                 Variable List                                 
+================================================================================
+caseid                        Case ID
+weight                        Weight
+MDregvote                     MD Vote registration
+likelyvoter                   Vote likely
+Question25_treat              Question 25 treatment
+Question29_30_order           Question 29/30 order
+Question1                     ballot_president
+Question2                     ballot_senate
+Question3                     ballot_amendment
+q4                            harrisfav
+q5                            trumpfav
+q6                            alsobrooksfav
+q7                            hoganfav
+q8                            moorefav
+q9                            scottfav
+q10                           unionfav
+q11                           lawenforcefav
+q12                           mcefav
+q13                           gendercarefav
+Question14                    top_issue
+Question15                    enthusiasm
+Question16                    abortion_stance
+Question17                    financial_situation
+Question18                    financials_year_ago
+Question19                    trouble_expenses
+Question20                    Break_in_estimate
+Question21                    Theft_estimate
+Question22_1                  crim_prevent - Driving through certain areas of 
+                              your town or city
+Question22_2                  crim_prevent - Taking walks, jogging, or running 
+                              alone in your area
+Question22_3                  crim_prevent - Visiting central areas of cities 
+                              near you
+Question22_4                  crim_prevent - Going to crowded events like 
+                              concerts, sporting events, or fairs
+Question22_5                  crim_prevent - Using public transportation
+Question22_6                  crim_prevent - Talking to strangers
+Question22_7                  crim_prevent - Going to shopping malls or centers
+Question22_8                  crim_prevent - Going to parks in your area
+Question22_9                  crim_prevent - None of these
+Question22_99                 crim_prevent - Not sure
+Question23                    crim_victim
+Question24                    Woman President Estimate
+Question25a                   sexism_control
+Question25b                   sexism_treatment
+Question26_1                  Educational Preferences - Jim Crow laws
+Question26_2                  Educational Preferences - Systematic racism
+Question26_3                  Educational Preferences - Police brutality
+Question26_4                  Educational Preferences - World War II
+Question26_5                  Educational Preferences - The Civil Rights 
+                              movement
+Question26_6                  Educational Preferences - The legacy of slavery
+Question26_7                  Educational Preferences - Modern-day racial 
+                              disparities
+Question26_8                  Educational Preferences - Westward expansion
+Question26_9                  Educational Preferences - The American Revolution
+Question26_10                 Educational Preferences - The Great Depression
+Question26_19                 Educational Preferences - None of the above
+Question26_99                 Educational Preferences - Not sure
+Question27                    incarcerated_pay
+Question28                    ME_sympathies
+Question29                    gaza_aid_support
+Question30                    israel_military_support
+urbanicity2                   Residence
+birthyr                       Birth Year
+gender                        Gender
+race                          Race - US
+hispanic                      Hispanic - US
+educ                          Education
+marstat                       Marital Status
+employ                        Employment Status
+ownhome                       Home ownership
+faminc_new                    Family income
+child18                       Children under age 18 in household
+pid3                          3 point party ID
+pid7                          7 point Party ID
+presvote16post                2016 President Vote Post Election
+presvote20post                2020 President Vote Post Election
+inputstate                    State of Residence
+inputzip                      Residence zip code
+votereg                       Voter Registration Status
+ideo5                         Ideology
+newsint                       Political Interest
+religpew                      Religion
+pew_churatd                   Church attendance (Pew version)
+pew_bornagain                 Born Again (Pew version)
+pew_religimp                  Importance of religion (Pew version)
+pew_prayer                    Frequency of Prayer (Pew version)
+starttime                     Questionnaire Start Time
+endtime                       Questionnaire End Time
+     
+                                   Verbatims                                   
+================================================================================
+Question14_other              top_issue - other
+ 
+                           Variable map and codebook                           
+================================================================================
+Name:          caseid
+Description:   Case ID
+         
+               Numeric Variable - no categories
+         
+               answered       : 500
+================================================================================
+Name:          weight
+Description:   Weight
+         
+               Numeric Variable - no categories
+         
+               answered       : 500
+================================================================================
+Name:          MDregvote
+Description:   MD Vote registration
+         
+          Count   Code   Label
+          -----   ----   -----
+            500      1   Yes
+              0      2   No
+              0      3   Don't know
+         
+================================================================================
+Name:          likelyvoter
+Description:   Vote likely
+         
+          Count   Code   Label
+          -----   ----   -----
+            440      1   Almost certain
+             50      2   Very likely
+             10      3   Somewhat likely
+              0      4   Not too likely
+              0      5   Not at all likely
+              0      6   Don't know
+         
+================================================================================
+Name:          Question25_treat
+Description:   Question 25 treatment
+         
+          Count   Code   Label
+          -----   ----   -----
+            255      1   Question25a
+            245      2   Question25b
+         
+================================================================================
+Name:          Question29_30_order
+Description:   Question 29/30 order
+         
+          Count   Code   Label
+          -----   ----   -----
+            248      1   Question29 first
+            252      2   Question30 first
+         
+================================================================================
+Name:          Question1
+Description:   ballot_president
+         
+          Count   Code   Label
+          -----   ----   -----
+            338      1   Kamala Harris (Democrat)
+            132      2   Donald Trump (Republican)
+              2      3   Chase Oliver (Libertarian)
+              9      4   Jill Stein (Green)
+              9      5   Undecided
+             10      9   Other
+         
+================================================================================
+Name:          Question2
+Description:   ballot_senate
+         
+          Count   Code   Label
+          -----   ----   -----
+            312      1   Angela Alsobrooks (Democrat)
+            145      2   Larry Hogan (Republican)
+             14      3   Mike Scott (Libertarian)
+             23      4   Undecided
+              6      9   Other
+         
+================================================================================
+Name:          Question3
+Description:   ballot_amendment
+         
+          Count   Code   Label
+          -----   ----   -----
+            394      1   Yes
+             70      2   No
+             30      3   Undecided
+              6      4   Would not vote on that ballot measure
+         
+================================================================================
+Name:          q4
+Description:   harrisfav
+         
+          Count   Code   Label
+          -----   ----   -----
+            243      1   Very favorable
+             94      2   Somewhat favorable
+             30      3   Somewhat unfavorable
+            123      4   Very unfavorable
+              9      8   No opinion
+              1      9   Never heard
+         
+================================================================================
+Name:          q5
+Description:   trumpfav
+         
+          Count   Code   Label
+          -----   ----   -----
+             89      1   Very favorable
+             42      2   Somewhat favorable
+             32      3   Somewhat unfavorable
+            327      4   Very unfavorable
+              9      8   No opinion
+              1      9   Never heard
+         
+================================================================================
+Name:          q6
+Description:   alsobrooksfav
+         
+          Count   Code   Label
+          -----   ----   -----
+            139      1   Very favorable
+            160      2   Somewhat favorable
+             61      3   Somewhat unfavorable
+             89      4   Very unfavorable
+             42      8   No opinion
+              9      9   Never heard
+         
+================================================================================
+Name:          q7
+Description:   hoganfav
+         
+          Count   Code   Label
+          -----   ----   -----
+             84      1   Very favorable
+            162      2   Somewhat favorable
+            125      3   Somewhat unfavorable
+             91      4   Very unfavorable
+             37      8   No opinion
+              1      9   Never heard
+         
+================================================================================
+Name:          q8
+Description:   moorefav
+         
+          Count   Code   Label
+          -----   ----   -----
+            175      1   Very favorable
+            166      2   Somewhat favorable
+             49      3   Somewhat unfavorable
+             63      4   Very unfavorable
+             40      8   No opinion
+              7      9   Never heard
+         
+================================================================================
+Name:          q9
+Description:   scottfav
+         
+          Count   Code   Label
+          -----   ----   -----
+             59      1   Very favorable
+            105      2   Somewhat favorable
+             50      3   Somewhat unfavorable
+             55      4   Very unfavorable
+            104      8   No opinion
+            127      9   Never heard
+         
+================================================================================
+Name:          q10
+Description:   unionfav
+         
+          Count   Code   Label
+          -----   ----   -----
+            172      1   Very favorable
+            174      2   Somewhat favorable
+             60      3   Somewhat unfavorable
+             35      4   Very unfavorable
+             54      8   No opinion
+              5      9   Never heard
+         
+================================================================================
+Name:          q11
+Description:   lawenforcefav
+         
+          Count   Code   Label
+          -----   ----   -----
+            147      1   Very favorable
+            221      2   Somewhat favorable
+             57      3   Somewhat unfavorable
+             39      4   Very unfavorable
+             36      8   No opinion
+              0      9   Never heard
+         
+================================================================================
+Name:          q12
+Description:   mcefav
+         
+          Count   Code   Label
+          -----   ----   -----
+             35      1   Very favorable
+             86      2   Somewhat favorable
+             76      3   Somewhat unfavorable
+             71      4   Very unfavorable
+            135      8   No opinion
+             97      9   Never heard
+         
+================================================================================
+Name:          q13
+Description:   gendercarefav
+         
+          Count   Code   Label
+          -----   ----   -----
+            137      1   Very favorable
+            109      2   Somewhat favorable
+             39      3   Somewhat unfavorable
+            124      4   Very unfavorable
+             82      8   No opinion
+              9      9   Never heard
+         
+================================================================================
+Name:          Question14
+Description:   top_issue
+         
+          Count   Code   Label
+          -----   ----   -----
+             22      1   Crime
+             71      2   Immigration
+             47      3   Abortion
+            132      4   The economy/inflation
+             38      5   Healthcare
+             22      6   Foreign policy
+             46      7   Climate
+             25      8   Gun policy
+             41      9   US Supreme court appointments
+             22     10   Racial and ethnic inequality
+              2     11   LGBTQ+ Rights
+             32     99   Other
+         
+================================================================================
+Name:          Question15
+Description:   enthusiasm
+         
+          Count   Code   Label
+          -----   ----   -----
+            322      1   Very enthusiastic
+             94      2   Somewhat enthusiastic
+             43      3   Not too enthusiastic
+             30      4   Not at all enthusiastic
+             11      9   Not sure
+         
+================================================================================
+Name:          Question16
+Description:   abortion_stance
+         
+          Count   Code   Label
+          -----   ----   -----
+            285      1   Abortion should be legal and generally available
+             78      2   Abortion should be legal with accessibility 
+                         restrictions
+             96      3   Abortion should be legal within rare cases, i.e., 
+                         rape, incest, life of the mother
+             27      4   Abortion should not be legal at all, with no 
+                         exceptions
+             14      9   Not sure
+         
+================================================================================
+Name:          Question17
+Description:   financial_situation
+         
+          Count   Code   Label
+          -----   ----   -----
+             55      1   Excellent
+            200      2   Good
+            171      3   Fair
+             68      4   Poor
+              6      9   Not sure/prefer not to say
+         
+================================================================================
+Name:          Question18
+Description:   financials_year_ago
+         
+          Count   Code   Label
+          -----   ----   -----
+            118      1   Better off than a year ago
+            232      2   About the same as a year ago
+            144      3   Worse off than a year ago
+              6      9   Not sure
+         
+================================================================================
+Name:          Question19
+Description:   trouble_expenses
+         
+          Count   Code   Label
+          -----   ----   -----
+             66      1   Frequently
+            131      2   Occasionally
+            102      3   Rarely
+            193      4   Never
+              8      9   Not sure
+         
+================================================================================
+Name:          Question20
+Description:   Break_in_estimate
+         
+               Numeric Variable - no categories
+         
+               answered       : 500
+               don't know     : 66
+================================================================================
+Name:          Question21
+Description:   Theft_estimate
+         
+               Numeric Variable - no categories
+         
+               answered       : 499
+               skipped        : 1
+               don't know     : 70
+================================================================================
+Name:          Question22_1
+Description:   crim_prevent - Driving through certain areas of your town or 
+               city
+         
+          Count   Code   Label
+          -----   ----   -----
+            136      1   selected
+            364      2   not selected
+         
+================================================================================
+Name:          Question22_2
+Description:   crim_prevent - Taking walks, jogging, or running alone in your 
+               area
+         
+          Count   Code   Label
+          -----   ----   -----
+            132      1   selected
+            368      2   not selected
+         
+================================================================================
+Name:          Question22_3
+Description:   crim_prevent - Visiting central areas of cities near you
+         
+          Count   Code   Label
+          -----   ----   -----
+            125      1   selected
+            375      2   not selected
+         
+================================================================================
+Name:          Question22_4
+Description:   crim_prevent - Going to crowded events like concerts, sporting 
+               events, or fairs
+         
+          Count   Code   Label
+          -----   ----   -----
+             92      1   selected
+            408      2   not selected
+         
+================================================================================
+Name:          Question22_5
+Description:   crim_prevent - Using public transportation
+         
+          Count   Code   Label
+          -----   ----   -----
+             78      1   selected
+            422      2   not selected
+         
+================================================================================
+Name:          Question22_6
+Description:   crim_prevent - Talking to strangers
+         
+          Count   Code   Label
+          -----   ----   -----
+            108      1   selected
+            392      2   not selected
+         
+================================================================================
+Name:          Question22_7
+Description:   crim_prevent - Going to shopping malls or centers
+         
+          Count   Code   Label
+          -----   ----   -----
+             73      1   selected
+            427      2   not selected
+         
+================================================================================
+Name:          Question22_8
+Description:   crim_prevent - Going to parks in your area
+         
+          Count   Code   Label
+          -----   ----   -----
+             49      1   selected
+            451      2   not selected
+         
+================================================================================
+Name:          Question22_9
+Description:   crim_prevent - None of these
+         
+          Count   Code   Label
+          -----   ----   -----
+            211      1   selected
+            289      2   not selected
+         
+================================================================================
+Name:          Question22_99
+Description:   crim_prevent - Not sure
+         
+          Count   Code   Label
+          -----   ----   -----
+             13      1   selected
+            487      2   not selected
+         
+================================================================================
+Name:          Question23
+Description:   crim_victim
+         
+          Count   Code   Label
+          -----   ----   -----
+             29      1   Yes
+            464      2   No
+              7      9   Not sure/prefer not to answer
+         
+================================================================================
+Name:          Question24
+Description:   Woman President Estimate
+         
+               Numeric Variable - no categories
+         
+               answered       : 500
+               don't know     : 46
+================================================================================
+Name:          Question25a
+Description:   sexism_control
+         
+          Count   Code   Label
+          -----   ----   -----
+              7      1   None of these statements
+             11      2   One of these statements
+             23      3   Two of these statements
+            206      4   Three of these statements
+              8      5   All four of these statements
+            245      9   not asked
+         
+================================================================================
+Name:          Question25b
+Description:   sexism_treatment
+         
+          Count   Code   Label
+          -----   ----   -----
+              6      1   None of these statements
+              4      2   One of these statements
+             22      3   Two of these statements
+            144      4   Three of these statements
+             61      5   Four of these statements
+              8      6   All five of these statements
+            255      9   not asked
+         
+================================================================================
+Name:          Question26_1
+Description:   Educational Preferences - Jim Crow laws
+         
+          Count   Code   Label
+          -----   ----   -----
+            341      1   selected
+            159      2   not selected
+         
+================================================================================
+Name:          Question26_2
+Description:   Educational Preferences - Systematic racism
+         
+          Count   Code   Label
+          -----   ----   -----
+            284      1   selected
+            216      2   not selected
+         
+================================================================================
+Name:          Question26_3
+Description:   Educational Preferences - Police brutality
+         
+          Count   Code   Label
+          -----   ----   -----
+            255      1   selected
+            245      2   not selected
+         
+================================================================================
+Name:          Question26_4
+Description:   Educational Preferences - World War II
+         
+          Count   Code   Label
+          -----   ----   -----
+            400      1   selected
+            100      2   not selected
+         
+================================================================================
+Name:          Question26_5
+Description:   Educational Preferences - The Civil Rights movement
+         
+          Count   Code   Label
+          -----   ----   -----
+            418      1   selected
+             82      2   not selected
+         
+================================================================================
+Name:          Question26_6
+Description:   Educational Preferences - The legacy of slavery
+         
+          Count   Code   Label
+          -----   ----   -----
+            368      1   selected
+            132      2   not selected
+         
+================================================================================
+Name:          Question26_7
+Description:   Educational Preferences - Modern-day racial disparities
+         
+          Count   Code   Label
+          -----   ----   -----
+            291      1   selected
+            209      2   not selected
+         
+================================================================================
+Name:          Question26_8
+Description:   Educational Preferences - Westward expansion
+         
+          Count   Code   Label
+          -----   ----   -----
+            335      1   selected
+            165      2   not selected
+         
+================================================================================
+Name:          Question26_9
+Description:   Educational Preferences - The American Revolution
+         
+          Count   Code   Label
+          -----   ----   -----
+            417      1   selected
+             83      2   not selected
+         
+================================================================================
+Name:          Question26_10
+Description:   Educational Preferences - The Great Depression
+         
+          Count   Code   Label
+          -----   ----   -----
+            410      1   selected
+             90      2   not selected
+         
+================================================================================
+Name:          Question26_19
+Description:   Educational Preferences - None of the above
+         
+          Count   Code   Label
+          -----   ----   -----
+              4      1   selected
+            496      2   not selected
+         
+================================================================================
+Name:          Question26_99
+Description:   Educational Preferences - Not sure
+         
+          Count   Code   Label
+          -----   ----   -----
+             12      1   selected
+            488      2   not selected
+         
+================================================================================
+Name:          Question27
+Description:   incarcerated_pay
+         
+          Count   Code   Label
+          -----   ----   -----
+             52      1   They should not be paid at all
+              2      2   They should be paid less than this
+            107      3   Their pay is about right
+            167      4   They should be paid more, but less than the minimum 
+                         wage ($15/hr)
+            113      5   They should be paid the minimum wage or more ($15/hr)
+             59      9   Not sure
+         
+================================================================================
+Name:          Question28
+Description:   ME_sympathies
+         
+          Count   Code   Label
+          -----   ----   -----
+            140      1   Israelis
+            113      2   Palestinians
+            148      3   Both equally
+             35      4   Neither
+             64      9   Not sure/No Opinion
+         
+================================================================================
+Name:          Question29
+Description:   gaza_aid_support
+         
+          Count   Code   Label
+          -----   ----   -----
+            207      1   Strongly favor
+            111      2   Somewhat favor
+             63      3   Neither favor nor oppose
+             29      4   Somewhat oppose
+             53      5   Strongly oppose
+             37      9   Not sure
+         
+================================================================================
+Name:          Question30
+Description:   israel_military_support
+         
+          Count   Code   Label
+          -----   ----   -----
+             90      1   Strongly favor
+             91      2   Somewhat favor
+             83      3   Neither favor nor oppose
+             96      4   Somewhat oppose
+             99      5   Strongly oppose
+             41      9   Not sure
+         
+================================================================================
+Name:          urbanicity2
+Description:   Residence
+         
+          Count   Code   Label
+          -----   ----   -----
+             61      1   Big city
+             44      2   Smaller city
+            212      3   Suburban area
+             31      4   Small town
+             32      5   Rural area
+            120      9   not asked
+         
+================================================================================
+Name:          birthyr
+Description:   Birth Year
+         
+               Numeric Variable - no categories
+         
+               answered       : 500
+================================================================================
+Name:          gender
+Description:   Gender
+         
+          Count   Code   Label
+          -----   ----   -----
+            235      1   Male
+            265      2   Female
+         
+================================================================================
+Name:          race
+Description:   Race - US
+         
+          Count   Code   Label
+          -----   ----   -----
+            311      1   White
+            138      2   Black
+             13      3   Hispanic
+             12      4   Asian
+              0      5   Native American
+             13      6   Two or more races
+             11      7   Other
+              2      8   Middle Eastern
+         
+================================================================================
+Name:          hispanic
+Description:   Hispanic - US
+         
+          Count   Code   Label
+          -----   ----   -----
+             23      1   Yes
+            477      2   No
+         
+================================================================================
+Name:          educ
+Description:   Education
+         
+          Count   Code   Label
+          -----   ----   -----
+              7      1   No HS
+             97      2   High school graduate
+             78      3   Some college
+             49      4   2-year
+            147      5   4-year
+            122      6   Post-grad
+         
+================================================================================
+Name:          marstat
+Description:   Marital Status
+         
+          Count   Code   Label
+          -----   ----   -----
+            233      1   Married
+             10      2   Separated
+             58      3   Divorced
+             28      4   Widowed
+            139      5   Never married
+             32      6   Domestic / civil partnership
+         
+================================================================================
+Name:          employ
+Description:   Employment Status
+         
+          Count   Code   Label
+          -----   ----   -----
+            246      1   Full-time
+             53      2   Part-time
+              5      3   Temporarily laid off
+             18      4   Unemployed
+            119      5   Retired
+             25      6   Permanently disabled
+             24      7   Homemaker
+              3      8   Student
+              7      9   Other
+         
+================================================================================
+Name:          ownhome
+Description:   Home ownership
+         
+          Count   Code   Label
+          -----   ----   -----
+            342      1   Own
+            141      2   Rent
+             17      3   Other
+         
+================================================================================
+Name:          faminc_new
+Description:   Family income
+         
+          Count   Code   Label
+          -----   ----   -----
+             13      1   Less than $10,000
+             23      2   $10,000 - $19,999
+             29      3   $20,000 - $29,999
+             29      4   $30,000 - $39,999
+             29      5   $40,000 - $49,999
+             32      6   $50,000 - $59,999
+             31      7   $60,000 - $69,999
+             40      8   $70,000 - $79,999
+             45      9   $80,000 - $99,999
+             34     10   $100,000 - $119,999
+             60     11   $120,000 - $149,999
+             43     12   $150,000 - $199,999
+             35     13   $200,000 - $249,999
+             13     14   $250,000 - $349,999
+             10     15   $350,000 - $499,999
+              4     16   $500,000 or more
+             30     97   Prefer not to say
+         
+================================================================================
+Name:          child18
+Description:   Children under age 18 in household
+         
+          Count   Code   Label
+          -----   ----   -----
+            122      1   Yes
+            378      2   No
+         
+================================================================================
+Name:          pid3
+Description:   3 point party ID
+         
+          Count   Code   Label
+          -----   ----   -----
+            291      1   Democrat
+             75      2   Republican
+            114      3   Independent
+             16      4   Other
+              4      5   Not sure
+         
+================================================================================
+Name:          pid7
+Description:   7 point Party ID
+         
+          Count   Code   Label
+          -----   ----   -----
+            208      1   Strong Democrat
+             83      2   Not very strong Democrat
+             54      3   Lean Democrat
+             47      4   Independent
+             31      5   Lean Republican
+             24      6   Not very strong Republican
+             51      7   Strong Republican
+              2      8   Not sure
+              0      9   Don't know
+         
+================================================================================
+Name:          presvote16post
+Description:   2016 President Vote Post Election
+         
+          Count   Code   Label
+          -----   ----   -----
+            269      1   Hillary Clinton
+            113      2   Donald Trump
+             16      3   Gary Johnson
+             14      4   Jill Stein
+              2      5   Evan McMullin
+             13      6   Other
+             73      7   Did not vote for President
+         
+================================================================================
+Name:          presvote20post
+Description:   2020 President Vote Post Election
+         
+          Count   Code   Label
+          -----   ----   -----
+            342      1   Joe Biden
+            116      2   Donald Trump
+              6      3   Jo Jorgensen
+              2      4   Howie Hawkins
+              7      5   Other
+             27      6   Did not vote for President
+         
+================================================================================
+Name:          inputstate
+Description:   State of Residence
+         
+          Count   Code   Label
+          -----   ----   -----
+              0      1   Alabama
+              0      2   Alaska
+              0      4   Arizona
+              0      5   Arkansas
+              0      6   California
+              0      8   Colorado
+              0      9   Connecticut
+              0     10   Delaware
+              0     11   District of Columbia
+              0     12   Florida
+              0     13   Georgia
+              0     15   Hawaii
+              0     16   Idaho
+              0     17   Illinois
+              0     18   Indiana
+              0     19   Iowa
+              0     20   Kansas
+              0     21   Kentucky
+              0     22   Louisiana
+              0     23   Maine
+            500     24   Maryland
+              0     25   Massachusetts
+              0     26   Michigan
+              0     27   Minnesota
+              0     28   Mississippi
+              0     29   Missouri
+              0     30   Montana
+              0     31   Nebraska
+              0     32   Nevada
+              0     33   New Hampshire
+              0     34   New Jersey
+              0     35   New Mexico
+              0     36   New York
+              0     37   North Carolina
+              0     38   North Dakota
+              0     39   Ohio
+              0     40   Oklahoma
+              0     41   Oregon
+              0     42   Pennsylvania
+              0     44   Rhode Island
+              0     45   South Carolina
+              0     46   South Dakota
+              0     47   Tennessee
+              0     48   Texas
+              0     49   Utah
+              0     50   Vermont
+              0     51   Virginia
+              0     53   Washington
+              0     54   West Virginia
+              0     55   Wisconsin
+              0     56   Wyoming
+              0     60   American Samoa
+              0     64   Federated States of Micronesia
+              0     66   Guam
+              0     68   Marshall Islands
+              0     69   Northern Mariana Islands
+              0     70   Palau
+              0     72   Puerto Rico
+              0     74   U.S. Minor Outlying Islands
+              0     78   Virgin Islands
+              0     81   Alberta
+              0     82   British Columbia
+              0     83   Manitoba
+              0     84   New Brunswick
+              0     85   Newfoundland
+              0     86   Northwest Territories
+              0     87   Nova Scotia
+              0     88   Nunavut
+              0     89   Ontario
+              0     90   Prince Edward Island
+              0     91   Quebec
+              0     92   Saskatchewan
+              0     93   Yukon Territory
+              0     99   Not in the U.S. or Canada
+         
+================================================================================
+Name:          inputzip
+Description:   Residence zip code
+         
+               Numeric Variable - no categories
+         
+               answered       : 500
+================================================================================
+Name:          votereg
+Description:   Voter Registration Status
+         
+          Count   Code   Label
+          -----   ----   -----
+            500      1   Yes
+              0      2   No
+              0      3   Don't know
+         
+================================================================================
+Name:          ideo5
+Description:   Ideology
+         
+          Count   Code   Label
+          -----   ----   -----
+             95      1   Very liberal
+            123      2   Liberal
+            173      3   Moderate
+             69      4   Conservative
+             23      5   Very conservative
+             17      6   Not sure
+         
+================================================================================
+Name:          newsint
+Description:   Political Interest
+         
+          Count   Code   Label
+          -----   ----   -----
+            276      1   Most of the time
+            149      2   Some of the time
+             59      3   Only now and then
+             11      4   Hardly at all
+              5      7   Don't know
+         
+================================================================================
+Name:          religpew
+Description:   Religion
+         
+          Count   Code   Label
+          -----   ----   -----
+            149      1   Protestant
+             86      2   Roman Catholic
+              1      3   Mormon
+              3      4   Eastern or Greek Orthodox
+             26      5   Jewish
+              3      6   Muslim
+              7      7   Buddhist
+              1      8   Hindu
+             40      9   Atheist
+             34     10   Agnostic
+            116     11   Nothing in particular
+             34     12   Something else
+         
+================================================================================
+Name:          pew_churatd
+Description:   Church attendance (Pew version)
+         
+          Count   Code   Label
+          -----   ----   -----
+             42      1   More than once a week
+             78      2   Once a week
+             35      3   Once or twice a month
+             75      4   A few times a year
+            112      5   Seldom
+            156      6   Never
+              2      7   Don't know
+         
+================================================================================
+Name:          pew_bornagain
+Description:   Born Again (Pew version)
+         
+          Count   Code   Label
+          -----   ----   -----
+            113      1   Yes
+            387      2   No
+         
+================================================================================
+Name:          pew_religimp
+Description:   Importance of religion (Pew version)
+         
+          Count   Code   Label
+          -----   ----   -----
+            161      1   Very important
+            115      2   Somewhat important
+             82      3   Not too important
+            142      4   Not at all important
+         
+================================================================================
+Name:          pew_prayer
+Description:   Frequency of Prayer (Pew version)
+         
+          Count   Code   Label
+          -----   ----   -----
+            126      1   Several times a day
+             63      2   Once a day
+             49      3   A few times a week
+             14      4   Once a week
+             35      5   A few times a month
+             78      6   Seldom
+            126      7   Never
+              9      8   Don't know
+         
+                               Date format variables                               
+================================================================================
+Name:          starttime
+Description:   Questionnaire Start Time
+          DateTime variable - no categories
+         
+================================================================================
+Name:          endtime
+Description:   Questionnaire End Time
+          DateTime variable - no categories
+         
